@@ -13,6 +13,7 @@
 		1774BF121A1E79660034F885 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1774BF111A1E79660034F885 /* Images.xcassets */; };
 		1774BF151A1E79660034F885 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1774BF131A1E79660034F885 /* LaunchScreen.xib */; };
 		1774BF211A1E79660034F885 /* WhereAmITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1774BF201A1E79660034F885 /* WhereAmITests.swift */; };
+		1774BF2B1A1E79AF0034F885 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1774BF2A1A1E79AF0034F885 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		1774BF1A1A1E79660034F885 /* WhereAmITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereAmITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1774BF1F1A1E79660034F885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1774BF201A1E79660034F885 /* WhereAmITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereAmITests.swift; sourceTree = "<group>"; };
+		1774BF2A1A1E79AF0034F885 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1774BF2B1A1E79AF0034F885 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		1774BEFC1A1E79660034F885 = {
 			isa = PBXGroup;
 			children = (
+				1774BF2A1A1E79AF0034F885 /* CoreLocation.framework */,
 				1774BF071A1E79660034F885 /* WhereAmI */,
 				1774BF1D1A1E79660034F885 /* WhereAmITests */,
 				1774BF061A1E79660034F885 /* Products */,
